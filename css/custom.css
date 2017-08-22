@@ -1,0 +1,95 @@
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+
+
+}
+/*navbar brand*/
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+  }
+    .navbar-inverse .navbar-brand {
+    color: #fff;
+    background-color: #3844DE;
+  }
+
+.navbar-inverse{
+  background-color: #141C8B;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #3844de;
+}
+
+
+ /*intro line*/
+ h4{
+   text-transform:uppercase;
+   font-weight: 800;
+ }
+ /*padding*/
+ .padding{
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .h4, h4 {
+     font-size: 18px;
+     font-weight: 600;
+     text-transform: capitalize;
+     color: black;
+ }
+
+ .h1, h1 {
+    font-size: 36px;
+    color: black;
+}
+p {
+    margin: 0 0 10px;
+    color: black;
+}
+.well-lg {
+    padding: 24px;
+    border-radius: 6px;
+    background-color: #fff;
+    border-radius: 0px;
+}
+.h3, h3 {
+    font-size: 18px;
+    color: blue;
+    font-weight: 600;
+    padding-top: inherit;
+}
+
+
+body {
+  background-color: #0A2FBB;
+}
+
+.pull-left {
+    float: left!important;
+    color: #337ab7;
+  }
+
+    .pull-right {
+        float: right!important;
+        color:#337ab7;
+  }
+  .well-lg:hover{
+    background-color: #0A2FBB;
+    ;
+  }
+.container {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    background-color: #0d2788;
+}
